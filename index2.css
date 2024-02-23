@@ -1,0 +1,92 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+        
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+#nav i{
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    background-color: #151515;
+    border-radius: 50%;
+    color: white;
+}
+#center h1{
+    
+    padding-left: 100px;
+    line-height: 60px;
+    font-weight: 500;
+    font-family: "Fredoka", sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+}
+#box{
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+#box p{
+    font-family: "Fredoka", sans-serif;
+    display: inline;
+}
+#elem0{
+    width: 200px;
+    margin: 10px;
+    
+    
+    
+.elem1{
+    margin: 10px;
+    border-top: 2px solid#151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+}
+.elem1 a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.elem1 i{
+    opacity: 0;
+    
+}
+.elem1:hover i{
+    opacity: 1;
+}
+#bottom{
+    width: 100%;
+    height: 40vh;
+    background-color: aquamarine;
+    background-image: url(https://media.istockphoto.com/id/1294339577/photo/young-beautiful-woman.jpg?s=2048x2048&w=is&k=20&c=uNhM1pcoZ8d_CUWpz9EZNyp_lztV-p_NOp9nFrpgSI4=);
+    background-size: cover;
+    background-position: 0 35%;
+}
+
